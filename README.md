@@ -12,7 +12,8 @@
 
 <ul>
 <li>the /react-app folder should reside at htdocs and the app should be running at http://localhost:3000/</li>
-<li>to access, simply go to localhost/react-app</li>
+<li>to access, simply go to localhost:80/react-app</li>
+<li>80 is the port Apache is running on</li>
 </ul><br>
 
 <strong>After</strong> editing the Apache config file, need to explicitly write the code for the correct bundle.js<br>on the index.html file since the original bundle.js will result in 404<br><br>example: `<script src="http://localhost/react-app/static/js/bundle.js"></script>` (recommended to be placed after body tags)
