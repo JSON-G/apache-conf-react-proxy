@@ -17,3 +17,4 @@
 </ul><br>
 
 <strong>After</strong> editing the Apache config file, need to explicitly write the code for the correct bundle.js<br>on the index.html file since the original bundle.js will result in 404<br><br>example: `<script src="http://localhost/react-app/static/js/bundle.js"></script>` (recommended to be placed after body tags)
+
